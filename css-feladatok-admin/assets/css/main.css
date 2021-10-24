@@ -1,0 +1,179 @@
+body {
+    color: white;
+}
+.header--dark {
+    background-color: rgb(51,57,64);
+    color: rgb(236,236,236);
+    padding: 10px;
+    height: 3em;
+}
+
+.header__title {
+    display: inline;
+    font-size: 1.25em;
+    float: left;
+    margin-top: 10px;
+}
+
+.header__search {
+    display: inline;
+}
+
+.search__input {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid rgb(51,57,64);
+    padding: 0.375em 0.75em;
+    font-size: 1.2em;
+    transition: border 0.15s;
+}
+
+.search__input:hover {
+    border-color: rgb(128,189,255);
+}
+
+.search__btn {
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 0.375em 0.75em;
+    font-size: 1.2em;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+
+.header--right {
+    float: right;
+}
+
+.fa-caret-down {
+    padding: 0px 10px 0px 0px;
+}
+
+.fa-user {
+    padding-left: 10px;
+}
+
+.main__nav {
+    background-color: rgb(33,37,41);
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
+
+.nav__ul {
+    list-style-type: none;
+    padding-left: 10px;
+    color: grey;
+}
+
+.nav__ul li {
+    padding-bottom: 50px;
+}
+
+.ul__header {
+    font-variant: small-caps;
+    padding-top: 40px;
+}
+
+.nav__ul i {
+    margin-right: 10px;
+}
+
+.main__breadcumb {
+    background-color: rgb(233,236,239);
+    color: grey;
+    border: 1px solid rgb(233,236,239);
+    border-radius: 0.25em;
+    padding: 1em 1.5em;
+    margin-left: 250px; 
+    margin-right: 20px;
+}
+
+.content {
+    background-color: white;
+}
+
+section h1 {
+    color: black;
+    padding: 1em 1.5em;
+    margin-left: 220px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card__top {
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 6px -6px #222;
+}
+
+.card__bottom {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+
+.main__cards {
+    color: white;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 230px;
+}
+
+.main__card--blue {
+    background-color: rgb(0,123,255);
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+
+.main__card--yellow {
+    background-color: rgb(255,193,7);
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+
+.main__card--green {
+    background-color: rgb(40,167,69);
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+
+.main__card--red {
+    background-color: rgb(220,53,69);
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+
+.main__card {
+    float: left;
+    transition: background-color 0.3s;
+    margin: 20px;
+}
+
+.fa-chevron-cards {
+    padding-left: 150px;
+    padding-right: 20px;
+}
+
+.fa-nav {
+   float: right;
+   padding-right: 10px;
+}
+
+@media only screen and (max-width: 700px){
+    .main__nav {
+        width: 50px;
+}
+}
