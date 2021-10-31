@@ -1,0 +1,33 @@
+.modal {
+position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  display: none;
+}
+
+.buttons-container {
+    float: right;
+    padding-top: 30px;
+}
+
+.okay-button {
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+}
+
+.close-button {
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.exit {
+    float: right;
+}
