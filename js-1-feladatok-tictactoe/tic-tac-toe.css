@@ -1,0 +1,29 @@
+.tic-tac-toe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(78, 99, 218);
+    border-spacing: 0px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+td {
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+    padding: 30px;
+}
+
+.newGame {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
