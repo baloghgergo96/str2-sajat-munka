@@ -1,0 +1,40 @@
+.section1 {
+    background-image: url("./img/bg-pattern.png"), linear-gradient(to right, rgba(218,36,49,255) , rgba(121,67,151,255)
+    );
+}
+
+.section2 {
+    background-color: rgba(253,202,75,255);
+}
+
+.section4 {
+    background-image: url("./img/bg-cta.jpg");
+}
+
+.section5 {
+    background-color: rgba(253,202,75,255);
+}
+
+.btn-outline-light {
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+.twitter {
+    background-color: rgba(29,165,247,255);
+    border-radius: 50px;
+}
+
+.facebook {
+    background-color: rgba(59,89,153,255);
+    border-radius: 50px;
+}
+
+.googleplus {
+    background-color: rgba(221,76,57,255);
+    border-radius: 50px;
+}
+
+.fa {
+    color: rgba(166,53,99,255);
+}
